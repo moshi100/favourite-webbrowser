@@ -1,0 +1,30 @@
+body{
+   background-color:#FFF;
+   color:#000;
+   direction:ltr;
+   overflow-x:hidden;
+}
+
+table form { margin-bottom: 0px; }
+form ul { margin-left: 0px; list-style: none; }
+.error { color:red; font-style: italic; }
+input { margin-bottom: 2px; }
+p { margin-top: 8px; }
+select { margin-bottom: 2px; }
+
+
+label.valid {
+  width: 24px;
+  height: 20px;
+  background: url(img/success.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+label.error {
+  	height: 20px;
+	font-size: 12px;
+  	font-weight: bold;
+  	color: red;
+  	padding: 2px 8px;
+  	margin-top: 2px;
+}
